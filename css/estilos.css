@@ -1,3 +1,19 @@
-h1 {
-color: blueviolet;
+#encabezado1{
+    background-color: rgba(68,155,55,0.79);
+    text-align: left;
+    border: 3px solid #C6AC00;
+
 }
+
+#primerelementoencab{
+    font-family: 'Raleway', sans-serif;
+    color: mintcream;
+}
+
+#fotodepf{
+    vertical-align: super;
+    float: right;
+    height: auto;
+    width: auto;
+}
+

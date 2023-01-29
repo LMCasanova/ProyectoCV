@@ -5,11 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/54dfd803a7.js" crossorigin="anonymous"></script>
     <title>Curriculum Vitae</title>
 </head>
 <body>
-    <h1> Gavin Lane is awesome </h1>
-    
+  <div id="encabezado1">
+    <h1 id="primerelementoencab">Curriculum Vitae de Eric Hanson</h1>
+    <p>Eric Hanson es un profesional altamente motivado y dedicado con una sólida formación en tecnología y gestión empresarial. Con más de 5 años de experiencia en el campo, ha demostrado ser un líder eficaz con habilidades de resolución de problemas sólidas y una pasión por la mejora continua. Eric es conocido por su ética de trabajo fuerte y su capacidad para trabajar en equipo para alcanzar objetivos comunes. Está comprometido a utilizar su experiencia y conocimientos para contribuir al éxito de su próximo empleador.</p> 
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-sharp fa-solid fa-fish"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Informacion Personal</a>
+          </li>
+          <li class="nav-item">
+            <a id="btnexp" onclick="cambiareltextodelbodycard()" class="nav-link" href="#">Experiencias</a>
+          </li>
+          <li class="nav-item">
+            <a id="btnhab" onclick="cambiareltextodelbodycard1()" class="nav-link" href="#" role="button" >
+              Habilidades
+            </a>
+            
+          </li>
+          
+      </div>
+    </div>
+  </nav>
+
+<div class="card" style="width: 200px">
+   <img class="card-img-top" src="https://randomuser.me/api/portraits/men/71.jpg" alt="Card image">
+</div>
+<div class="card">
+  <div id="desceric" class="card-body">Eric Hanson es un nativo de Seattle, nacido el 10 de julio de 1985. Es un hombre casado y orgulloso padre de dos hijos, un niño y una niña. Eric es una persona familiar y dedicada, y valora mucho su tiempo con su familia y amigos. A pesar de su dedicación a su vida personal, sigue siendo un profesional altamente motivado y comprometido con su carrera.</div>
+</div>
+
+<script src="js/functions.js"></script>
+
 </body>
 </html>
-
