@@ -8,6 +8,7 @@
 #primerelementoencab{
     font-family: 'Raleway', sans-serif;
     color: mintcream;
+    border: 3px solid #E0E0E0;
 }
 
 #fotodepf{
@@ -15,5 +16,22 @@
     float: right;
     height: auto;
     width: auto;
+}
+
+#mifooter{
+    background-color: darkslategray;
+}
+
+
+#infofinal{
+    color: #E0E0E0;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#mail{
+    color: #E0E0E0;
+    font-size: medium;
+    font-weight: bold;
 }
 

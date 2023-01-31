@@ -9,3 +9,9 @@ function cambiareltextodelbodycard1() {
 }
 
 document.getElementById("btnhab").addEventListener("click", cambiareltextodelbodycard1);
+
+function cambiareltextodelbodycard2() {
+    document.getElementById("desceric").innerHTML = "Eric Hanson es un nativo de Seattle, nacido el 10 de julio de 1985. Es un hombre casado y orgulloso padre de dos hijos, un niño y una niña. Eric es una persona familiar y dedicada, y valora mucho su tiempo con su familia y amigos. A pesar de su dedicación a su vida personal, sigue siendo un profesional altamente motivado y comprometido con su carrera.";
+}
+
+document.getElementById("btninfo").addEventListener("click", cambiareltextodelbodycard2);
